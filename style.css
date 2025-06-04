@@ -1,28 +1,19 @@
-/* Fundo geral */
 body {
-    background-color: #e0f7fa;
+    background-color: #daf0f3;
     font-family: 'Verdana', sans-serif;
 }
 
-/* Header */
-.header {
-    background-image: url('https://i.imgur.com/zf6Tn2g.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 100px 0;
-}
 
 .header h1 {
     font-size: 3rem;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow: 2px 2px 5px #000000;
 }
 
 .header p {
     font-size: 1.3rem;
 }
 
-/* Seção Curiosidades */
+
 #curiosidades {
     background-color: #b2ebf2;
 }
@@ -35,7 +26,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Seção Contato */
+
 .contato {
     background-color: #4dd0e1;
     color: white;
@@ -50,8 +41,13 @@ body {
     background-color: #004d40;
 }
 
-/* Footer */
+
 .footer {
     background-color: #006064;
     color: white;
 }
+
+/* O css aqui, esta definindo o estilo de uma página com tons de azul. 
+Usa uma fonte padrão e aplica destaque ao título com sombra. 
+A seção de curiosidades tem fundo claro e os cards ganham zoom ao passar o mouse. 
+A área de contato tem fundo mais escuro, texto branco e botões com efeito ao passar o mouse. */
